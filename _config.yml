@@ -3,7 +3,7 @@ auto:        false
 server:      false
 server_port: 80
 baseurl:    /blog
-url: http://dev.blog.com
+url: www.junyong.info
 
 source:      .
 destination: ./_site
