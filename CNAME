@@ -1,5 +1,1 @@
-$ dig junyong.info +nostats +nocomments +nocmd
-# Look up DNS record for junyong.info
-
-junyong.info                    IN      A
-junyong.info             3259    IN      A       204.232.175.78
+junyong.info
