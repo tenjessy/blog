@@ -46,6 +46,7 @@ a small {
 }
 
 .wrapper {
+  display:none;
   width:860px;
   margin:0 auto;
 }
