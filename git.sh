@@ -1,7 +1,7 @@
 #/bin/bash
 
 gitdir='/Jessy_Project/GitWorkspace/blog'
-echo '输入commit messages:'
+echo 'Please enter commit messages:'
 read gitmsg
 cd $gitdir
 git add .
