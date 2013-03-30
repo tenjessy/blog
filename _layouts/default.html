@@ -3,9 +3,7 @@
     <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-
-    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/theme_gray.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -13,24 +11,27 @@
     </head>
     <body>
     <div class="wrapper">
-        <header>
-        <h1>实验室</h1>
-        <p>该项目是基于github搭建的一个小博客程序</p>
+        <header class="header">
+	        <h1 class="blog_title">实验室</h1>
+	        <p class="blog_description">
+	        	该博客是基于github pages搭建的一个小程序<br />
+	        	在mac上开发，暂未在window上进行任何测试。
+	        </p>
 
-        <ul>
-            <li><a href="https://github.com/tenjessy/blog/zipball/master">Download <strong>ZIP File</strong></a></li>
-            <li><a href="https://github.com/tenjessy/blog/tarball/master">Download <strong>TAR Ball</strong></a></li>
-            <li><a href="https://github.com/tenjessy/blog">View On <strong>GitHub</strong></a></li>
-        </ul>
-        </header>
-        <section>
-        	{{ content }}
-        </section>
-        <footer>
-        <p>This project is maintained by <a href="https://github.com/tenjessy">tenjessy</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        </footer>
+	        <ul class="github_list">
+	            <li><a href="https://github.com/tenjessy/blog/zipball/master">Download <strong>ZIP File</strong></a></li>
+	            <li><a href="https://github.com/tenjessy/blog/tarball/master">Download <strong>TAR Ball</strong></a></li>
+	            <li><a href="https://github.com/tenjessy/blog">View On <strong>GitHub</strong></a></li>
+	        </ul>
+		</header>
+	    <section class="content">
+			{{ content }}
+		</section>
+
+		<footer class="footer">
+			<p>This project is maintained by <a href="https://github.com/tenjessy">tenjessy</a></p>
+		</footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="{{ site.baseurl }}/javascripts/scale.fix.js"></script>
     </body>
 </html>
