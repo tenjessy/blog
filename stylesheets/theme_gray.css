@@ -66,6 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 .article_list .post_title { line-height:2; font-size:1.4em; }
 
+.article h1 { font-weight:300; margin-bottom:1.5em; font-size:2.25em; }
 
 
 
