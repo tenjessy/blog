@@ -158,10 +158,16 @@ ul.posts {
 }
 
 .article code {
+    display:block;
+    white-space:pre-wrap;
     border:1px solid #ddd;
     background-color:#eef;
     font-size:85%;
     padding:.2em .4em;
+    border-radius:5px;
+}
+.article code:first-line {
+  line-height:0px;
 }
 
 .article pre code {
