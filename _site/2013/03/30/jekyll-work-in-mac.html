@@ -64,6 +64,21 @@ gem -v
 // 如果不是最新的（截止2013-03-31，最新版本是2.0.3），请更新最新版本
 gem update --system
 </code></p>
+
+<h4 id='ruby'>ruby版本问题</h4>
+
+<p>应该说是ruby的问题最麻烦，因为在升级ruby的时候，我参照网上的方法，用rvm来管理。举个例子：</p>
+
+<p><code>
+// 安装rvm
+$ curl -L get.rvm.io | bash -s stable
+// 执行根目录下的baserc文件
+$ source ~/.bashrc
+// 执行根目录下的base_profile文件
+$ source ~/.bash_profile
+// 查看有哪些版本的ruby可以更新
+// rvm list known
+</code></p>
 </article>
 
 <div id="related">
