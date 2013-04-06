@@ -19,3 +19,6 @@ layout: default
 ## 联系
 
 Gmail : tenjessy@gmail.com
+
+
+{% include disqus.html %}
