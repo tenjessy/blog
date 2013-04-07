@@ -1,9 +1,7 @@
 ---
 layout: post
-title: 在Mac下搭建jekyll
+title: 在Mac下搭建GitHub Pages环境
 ---
-
-# {{ page.title }}
 
 记录自己在mac环境下搭建jekyll所遇到的问题。
 

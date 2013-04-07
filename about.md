@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 ---
 
 ## 关于本站
