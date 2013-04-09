@@ -12,7 +12,10 @@
 body, h1, h2, h3, h4, h5, h6, hr, p { margin:0px; padding:0px; }
 body, button, input, select, textarea { font:300 1em/1.8em "Open Sans", Arial, Helvetica, Geneva, sans-serif; color:#555555; }
 h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:200; line-height:1.2em; margin-bottom:0.5em; }
-a { text-decoration:none; color:#444444; }
+a {
+	text-decoration:none; color:#444444;
+	-webkit-transition:all 0.25s linear;
+}
 a:hover { text-decoration:underline; color:#f84e53; }
 fieldset, img { border:none; vertical-align:top; }
 legend { display:none; }
@@ -87,11 +90,16 @@ body { padding:1.25em; }
  */
 .footer { padding:1% 0; background-color:#fdfdfd; border-top:1px solid #dddddd; }
 .footer_nav { padding:2% 0; text-align:center; }
-.footer_nav a { display:inline-block; width:64px; height:64px; margin:0 6em; background-size:contain; background-repeat:no-repeat; text-indent:-999px; overflow:hidden; }
+.footer_nav a {
+	display:inline-block; width:64px; height:64px; margin:0 6em; background-size:contain; background-repeat:no-repeat; text-indent:-999px; overflow:hidden;
+	/*-webkit-transition:all 0.25s linear;*/
+}
+.footer_nav a:hover {
+	-webkit-transform:rotate(360deg) scale(1.5);
+	/*-webkit-transform-origin:right;*/
+	/*-webkit-transform-origin:100% 50%;*/
+}
 .footer_nav .home { background-image:url(../images/icon_home.png); }
 .footer_nav .email { background-image:url(../images/icon_email.png); }
 .footer_nav .github { background-image:url(../images/icon_github.png); }
 .footer_nav .twitter { background-image:url(../images/icon_twitter.png); }
-
-
-
