@@ -103,3 +103,14 @@ body { padding:1.25em; }
 .footer_nav .email { background-image:url(../images/icon_email.png); }
 .footer_nav .github { background-image:url(../images/icon_github.png); }
 .footer_nav .twitter { background-image:url(../images/icon_twitter.png); }
+
+
+/**
+ * data:2013-04-20;
+ * explanation:雅安;
+ */
+
+html {
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+	-webkit-filter: grayscale(100%); 
+}
