@@ -28,13 +28,17 @@ body { /*max-width:640px;*/ margin:0px auto; background-color:#e6e6e6; color:#3e
 
 .slider-control { line-height:1; text-align:center; }
 .slider-control .indicators { display:inline-block; padding:0px 4px; }
-.slider-control .indicators span { display:inline-block; width:6px; height:6px; margin:0px 4px; background-color:rgba(0, 0, 0, 0.3); border-radius:6px; vertical-align:middle; }
+.slider-control .indicators span {
+	display:inline-block; width:6px; height:6px; margin:0px 4px; background-color:rgba(0, 0, 0, 0.3); vertical-align:middle;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+}
 .slider-control .indicators .active { background-color:rgba(0, 0, 0, 0.9); }
 
 .slider-mod { position:relative; width:320px; height:80px; margin:50px auto; overflow:hidden; }
 .slider-mod img { width:320px; vertical-align:top; }
 .slider-mod .indicators { position:absolute; left:0px; right:0px; bottom:6px; line-height:6px; }
-.slider-mod .control { position:absolute; top:50%; width:16px; height:40px; margin-top:-20px; background-color:rgba(0, 0, 0, 0.4); font-size:12px; line-height:40px; text-align:center; color:#ffffff; overflow:hidden; }
+.slider-mod .control { display:none; position:absolute; top:50%; width:16px; height:40px; margin-top:-20px; background-color:rgba(0, 0, 0, 0.4); font-size:12px; line-height:40px; text-align:center; color:#ffffff; overflow:hidden; }
 .slider-mod .prev { left:0px; border-radius:0px 4px 4px 0px; }
 .slider-mod .next { right:0px; border-radius:4px 0px 0px 4px; }
 
