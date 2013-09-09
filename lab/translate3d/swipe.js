@@ -279,11 +279,6 @@ swipe.prototype = {
 		this.deltaX = e.touches[0].pageX - this.start.pageX;
 		this.deltaY = e.touches[0].pageY - this.start.pageY;
 
-		// var s_X = $('#deltaX');
-		// s_X.text(this.deltaX);
-		// var s_Y = $('#deltaY');
-		// s_Y.text(this.deltaY);
-
 		if ( typeof this.isScrolling == 'undefined') {
 			this.isScrolling = !!( this.isScrolling || Math.abs(this.deltaX) < Math.abs(e.touches[0].pageY - this.start.pageY) );
 		}
