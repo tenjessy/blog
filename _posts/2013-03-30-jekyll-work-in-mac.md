@@ -18,3 +18,7 @@ title: 在Mac下搭建GitHub Pages环境
 
 但如果需要在本地先预览github pages的话，就需要再额外处理一些东西，比如ruby、jekyll之类的。在网上搜一圈，大把的教程，然后我也按着教程来做。
 在本地搭建jekyll环境的第一步：在终端下输入：
+
+```
+$ gem install jekyll
+```
