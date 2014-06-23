@@ -424,7 +424,7 @@ footer p { margin:0px; }
 
 .article-list .title { position:relative; }
 .article-list .meta {
-  position:absolute; top:50%; right:0px; margin-top:-6px;
+  position:absolute; top:50%; right:10px; margin-top:-6px;
   color:#999; font-size:12px; vertical-align:bottom;
 }
 
