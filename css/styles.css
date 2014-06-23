@@ -422,8 +422,8 @@ footer p { margin:0px; }
 }
 
 
-.article-list { }
-.article-list .meta { font-size:12px; }
+
+.article-list .meta { font-size:12px; vertical-align:bottom; }
 
 
 
