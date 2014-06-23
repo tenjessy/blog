@@ -421,7 +421,7 @@ footer p { margin:0px; }
   }
 }
 
-
+.article-list { list-style:decimal; }
 .article-list .title { position:relative; }
 .article-list .excerpt { font-style:normal; }
 .article-list .meta {
